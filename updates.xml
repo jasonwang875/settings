@@ -1,7 +1,10 @@
 <application>
   <component name="UpdatesConfigurable">
-    <option name="LAST_BUILD_CHECKED" value="DB-222.4345.5" />
-    <option name="LAST_TIME_CHECKED" value="1681165540226" />
+    <ignoredBuildNumbers>
+      <item value="213.7172.31" />
+    </ignoredBuildNumbers>
+    <option name="LAST_BUILD_CHECKED" value="WS-222.4459.24" />
+    <option name="LAST_TIME_CHECKED" value="1681142607542" />
     <option name="THIRD_PARTY_PLUGINS_ALLOWED" value="true" />
     <option name="WHATS_NEW_SHOWN_FOR" value="222" />
   </component>
