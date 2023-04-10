@@ -1,0 +1,104 @@
+<keymap version="1" name="VSCode (macOS) copy" parent="VSCode OSX">
+  <action id="ActivateCommitToolWindow">
+    <keyboard-shortcut first-keystroke="shift meta c" />
+  </action>
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="shift meta t" />
+  </action>
+  <action id="CheckinProject">
+    <keyboard-shortcut first-keystroke="shift meta alt c" />
+  </action>
+  <action id="Console.Jdbc.Terminate" />
+  <action id="CopyReference" />
+  <action id="DSM.OpenInEditor" />
+  <action id="DatabaseView.CloseConnectionAction" />
+  <action id="DatabaseView.CopyDdlAction">
+    <keyboard-shortcut first-keystroke="shift meta alt g" />
+  </action>
+  <action id="Debugger.EditFrameSource" />
+  <action id="Diff.ShowDiff">
+    <mouse-shortcut keystroke="button1 doubleClick" />
+  </action>
+  <action id="Docker.RemoteServers.StopComposeService" />
+  <action id="Docker.RemoteServers.StopContainer" />
+  <action id="EditSource" />
+  <action id="EditorNextWord" />
+  <action id="EditorSearchSession.NextOccurrenceAction">
+    <keyboard-shortcut first-keystroke="f4" />
+  </action>
+  <action id="ExternalSystem.OpenConfig" />
+  <action id="FindNext">
+    <keyboard-shortcut first-keystroke="meta g" />
+  </action>
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="ctrl equals" />
+  </action>
+  <action id="Git.Branches">
+    <keyboard-shortcut first-keystroke="shift meta r" />
+  </action>
+  <action id="Git.Commit.And.Push.Executor">
+    <keyboard-shortcut first-keystroke="shift meta alt k" />
+  </action>
+  <action id="Git.Log.Branches.Change.Branch.Filter">
+    <keyboard-shortcut first-keystroke="enter" />
+  </action>
+  <action id="GotoDeclaration">
+    <mouse-shortcut keystroke="meta button1" />
+    <mouse-shortcut keystroke="button2" />
+    <mouse-shortcut keystroke="Force touch" />
+    <keyboard-shortcut first-keystroke="ctrl f12" />
+  </action>
+  <action id="GotoNextBookmark">
+    <keyboard-shortcut first-keystroke="meta alt l" />
+  </action>
+  <action id="GotoPreviousBookmark">
+    <keyboard-shortcut first-keystroke="meta alt j" />
+  </action>
+  <action id="Graph.ApplyCurrentLayout" />
+  <action id="Graph.Faces.OpenSelectedPages" />
+  <action id="Hg.Commit.And.Push.Executor" />
+  <action id="HideActiveWindow">
+    <keyboard-shortcut first-keystroke="shift escape" />
+    <keyboard-shortcut first-keystroke="meta alt b" />
+  </action>
+  <action id="HideAllWindows">
+    <keyboard-shortcut first-keystroke="shift ctrl f12" />
+  </action>
+  <action id="Jdbc.OpenEditor" />
+  <action id="Jdbc.OpenEditor.Data" />
+  <action id="NavBar-navigate" />
+  <action id="NextOccurence">
+    <keyboard-shortcut first-keystroke="f3" />
+  </action>
+  <action id="OpenModuleSettings" />
+  <action id="ProjectViewEditSource" />
+  <action id="RefreshStackFrame" />
+  <action id="RemoteHostView.EditSource" />
+  <action id="ReopenClosedTab" />
+  <action id="Resume">
+    <keyboard-shortcut first-keystroke="shift f5" />
+  </action>
+  <action id="RiderManageRecentProjects">
+    <keyboard-shortcut first-keystroke="shift ctrl alt n" />
+  </action>
+  <action id="RiderUnitTestNextOccurenceAction">
+    <keyboard-shortcut first-keystroke="shift f4" />
+  </action>
+  <action id="RunDashboard.EditConfiguration" />
+  <action id="RunDashboard.Stop" />
+  <action id="ServiceView.ShowServices" />
+  <action id="Sql.EditParameter" />
+  <action id="StepInto">
+    <keyboard-shortcut first-keystroke="f7" />
+    <keyboard-shortcut first-keystroke="meta f11" />
+  </action>
+  <action id="Stop">
+    <keyboard-shortcut first-keystroke="shift ctrl f5" />
+  </action>
+  <action id="SurroundWithLiveTemplate" />
+  <action id="ToggleBookmark">
+    <keyboard-shortcut first-keystroke="meta alt k" />
+  </action>
+  <action id="XDebugger.JumpToTypeSource" />
+  <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleCodeSpanAction" />
+</keymap>
