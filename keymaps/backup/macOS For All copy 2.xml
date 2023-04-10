@@ -1,0 +1,14 @@
+<keymap version="1" name="macOS For All copy 1" parent="macOS For All">
+  <action id="EditorAddCaretPerSelectedLine">
+    <keyboard-shortcut first-keystroke="shift ctrl g" />
+  </action>
+  <action id="Git.ShowBranches">
+    <keyboard-shortcut first-keystroke="shift alt r" />
+  </action>
+  <action id="RerunTests" />
+  <action id="TableResult.UnselectPreviousOccurrence" />
+  <action id="UnselectPreviousOccurrence" />
+  <action id="Vcs.QuickListPopupAction">
+    <keyboard-shortcut first-keystroke="shift alt v" />
+  </action>
+</keymap>
