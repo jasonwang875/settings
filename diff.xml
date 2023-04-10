@@ -2,7 +2,8 @@
   <component name="ExternalDiffSettings">
     <option name="DIFF_DEFAULT" value="true" />
     <option name="DIFF_ENABLED" value="true" />
-    <option name="DIFF_EXE_PATH" value="/Applications/Beyond Compare.app/Contents/MacOS/BComp" />
-    <option name="MERGE_EXE_PATH" value="/Applications/Beyond Compare.app/Contents/MacOS/BComp" />
+    <option name="DIFF_EXE_PATH" value="&quot;C:\Program Files (x86)\Beyond Compare 3\BComp.exe&quot;" />
+    <option name="MERGE_ENABLED" value="true" />
+    <option name="MERGE_EXE_PATH" value="&quot;C:\Program Files (x86)\Beyond Compare 3\BComp.exe&quot;" />
   </component>
 </application>
