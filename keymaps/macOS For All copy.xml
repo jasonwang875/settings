@@ -110,6 +110,9 @@
   <action id="RiderTypeHierarchy.BaseOnThisType" />
   <action id="ServiceView.GroupByServiceGroups" />
   <action id="ShowFilterPopup" />
+  <action id="ShowSettings">
+    <keyboard-shortcut first-keystroke="ctrl comma" />
+  </action>
   <action id="ShowUmlDiagramPopup" />
   <action id="StepInto">
     <keyboard-shortcut first-keystroke="f11" />
