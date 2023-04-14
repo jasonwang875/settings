@@ -55,6 +55,7 @@
     <keyboard-shortcut first-keystroke="shift alt r" />
   </action>
   <action id="Git.Stage.Add" />
+  <action id="Github.PullRequest.Diff.Comment.Create" />
   <action id="GotoAction">
     <keyboard-shortcut first-keystroke="ctrl alt a" />
   </action>
@@ -68,6 +69,7 @@
   <action id="GotoImplementation">
     <keyboard-shortcut first-keystroke="ctrl f12" />
   </action>
+  <action id="GotoTest" />
   <action id="GotoTypeDeclaration">
     <mouse-shortcut keystroke="shift control button1" />
   </action>
@@ -109,8 +111,10 @@
   <action id="RiderProjectDiagramApplyCurrentLayout" />
   <action id="RiderTypeHierarchy.BaseOnThisType" />
   <action id="ServiceView.GroupByServiceGroups" />
+  <action id="ServiceView.ShowServices" />
   <action id="ShowFilterPopup" />
   <action id="ShowUmlDiagramPopup" />
+  <action id="Space.Review.CreateDiffComment" />
   <action id="StepInto">
     <keyboard-shortcut first-keystroke="f11" />
   </action>
@@ -122,6 +126,9 @@
   </action>
   <action id="Stop">
     <keyboard-shortcut first-keystroke="shift f5" />
+  </action>
+  <action id="SurroundWith">
+    <keyboard-shortcut first-keystroke="shift ctrl t" />
   </action>
   <action id="SwitchHeaderSource" />
   <action id="TableResult.UnselectPreviousOccurrence" />
