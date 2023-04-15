@@ -18,11 +18,12 @@
   </action>
   <action id="ChangesView.ShelveSilently" />
   <action id="ChangesView.UnshelveSilently" />
+  <action id="CodeInspection.OnEditor" />
+  <action id="Compare.Selected">
+    <keyboard-shortcut first-keystroke="shift alt i" />
+  </action>
   <action id="Console.History.Browse" />
   <action id="Console.Jdbc.BrowseHistory" />
-  <action id="Console.TableResult.EditMaximized.ToggleSoftWrap">
-    <keyboard-shortcut first-keystroke="ctrl alt s" />
-  </action>
   <action id="Console.TableResult.NavigateForeignAction">
     <mouse-shortcut keystroke="control button1" />
     <mouse-shortcut keystroke="button2" />
@@ -60,6 +61,9 @@
     <keyboard-shortcut first-keystroke="shift ctrl g" />
   </action>
   <action id="Git.Branches" />
+  <action id="Git.Commit.And.Push.Executor">
+    <keyboard-shortcut first-keystroke="shift alt k" />
+  </action>
   <action id="Git.CompareWithBranch">
     <keyboard-shortcut first-keystroke="shift alt b" />
   </action>
@@ -74,14 +78,15 @@
   <action id="GotoDeclaration">
     <mouse-shortcut keystroke="control button1" />
     <mouse-shortcut keystroke="button2" />
+    <keyboard-shortcut first-keystroke="f12" />
   </action>
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="ctrl alt f" />
   </action>
-  <action id="GotoImplementation">
-    <keyboard-shortcut first-keystroke="ctrl f12" />
+  <action id="GotoImplementation" />
+  <action id="GotoTest">
+    <keyboard-shortcut first-keystroke="ctrl alt s" />
   </action>
-  <action id="GotoTest" />
   <action id="GotoTypeDeclaration">
     <mouse-shortcut keystroke="shift control button1" />
   </action>
@@ -89,12 +94,19 @@
   <action id="Graph.RouteEdges" />
   <action id="IntroduceField" />
   <action id="IntroduceParameter" />
+  <action id="JumpToLastWindow" />
   <action id="MethodHierarchy" />
   <action id="MethodHierarchy.BaseOnThisMethod" />
+  <action id="MoveEditorToOppositeTabGroup">
+    <keyboard-shortcut first-keystroke="shift f3" />
+  </action>
   <action id="PasteMultiple">
     <keyboard-shortcut first-keystroke="shift ctrl insert" />
   </action>
   <action id="PerforceDirect.Edit" />
+  <action id="ReSharperGotoImplementation">
+    <keyboard-shortcut first-keystroke="ctrl f12" />
+  </action>
   <action id="ReSharperNavigateTo">
     <keyboard-shortcut first-keystroke="ctrl alt g" />
   </action>
