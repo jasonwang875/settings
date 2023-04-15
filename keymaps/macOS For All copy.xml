@@ -43,6 +43,18 @@
     <keyboard-shortcut first-keystroke="shift ctrl s" />
   </action>
   <action id="Exit" />
+  <action id="ExpandAllRegions">
+    <keyboard-shortcut first-keystroke="shift ctrl equals" />
+  </action>
+  <action id="ExpandRegion">
+    <keyboard-shortcut first-keystroke="ctrl equals" />
+  </action>
+  <action id="ExpandRegionRecursively">
+    <keyboard-shortcut first-keystroke="ctrl alt equals" />
+  </action>
+  <action id="ExternalSystem.ExpandAll">
+    <keyboard-shortcut first-keystroke="ctrl equals" />
+  </action>
   <action id="FileStructurePopup" />
   <action id="FindPrevious">
     <keyboard-shortcut first-keystroke="shift ctrl g" />
