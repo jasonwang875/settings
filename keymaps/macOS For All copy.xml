@@ -3,6 +3,10 @@
     <keyboard-shortcut first-keystroke="ctrl v" />
     <keyboard-shortcut first-keystroke="meta v" />
   </action>
+  <action id="$Undo">
+    <keyboard-shortcut first-keystroke="ctrl z" />
+    <keyboard-shortcut first-keystroke="ctrl alt z" />
+  </action>
   <action id="ActivateBookmarksToolWindow" />
   <action id="ActivateFavoritesToolWindow" />
   <action id="ActivateFindToolWindow" />
@@ -33,13 +37,25 @@
   <action id="CppIncludesHierarchy" />
   <action id="DatabaseView.SqlGenerator" />
   <action id="Diagram.DeselectAll" />
+  <action id="Diagram.SelectAll">
+    <keyboard-shortcut first-keystroke="ctrl a" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt a" />
+  </action>
   <action id="Diff.ApplyRightSide" />
+  <action id="Editor Undo">
+    <keyboard-shortcut first-keystroke="ctrl alt z" />
+  </action>
   <action id="EditorAddCaretPerSelectedLine">
     <keyboard-shortcut first-keystroke="shift ctrl alt minus" />
   </action>
   <action id="EditorCopy">
     <keyboard-shortcut first-keystroke="ctrl c" />
     <keyboard-shortcut first-keystroke="meta c" />
+  </action>
+  <action id="EditorCut">
+    <keyboard-shortcut first-keystroke="ctrl x" />
+    <keyboard-shortcut first-keystroke="shift delete" />
+    <keyboard-shortcut first-keystroke="ctrl alt x" />
   </action>
   <action id="EditorPasteSimple" />
   <action id="EditorToggleUseSoftWraps">
