@@ -5,7 +5,7 @@
   </action>
   <action id="$Undo">
     <keyboard-shortcut first-keystroke="ctrl z" />
-    <keyboard-shortcut first-keystroke="ctrl alt z" />
+    <keyboard-shortcut first-keystroke="meta z" />
   </action>
   <action id="ActivateBookmarksToolWindow" />
   <action id="ActivateFavoritesToolWindow" />
@@ -39,7 +39,7 @@
   <action id="Diagram.DeselectAll" />
   <action id="Diagram.SelectAll">
     <keyboard-shortcut first-keystroke="ctrl a" />
-    <keyboard-shortcut first-keystroke="shift ctrl alt a" />
+    <keyboard-shortcut first-keystroke="meta a" />
   </action>
   <action id="Diff.ApplyRightSide" />
   <action id="Editor Undo">
@@ -55,7 +55,7 @@
   <action id="EditorCut">
     <keyboard-shortcut first-keystroke="ctrl x" />
     <keyboard-shortcut first-keystroke="shift delete" />
-    <keyboard-shortcut first-keystroke="ctrl alt x" />
+    <keyboard-shortcut first-keystroke="meta x" />
   </action>
   <action id="EditorPasteSimple" />
   <action id="EditorToggleUseSoftWraps">
