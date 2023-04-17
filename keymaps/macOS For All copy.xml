@@ -40,6 +40,10 @@
     <keyboard-shortcut first-keystroke="ctrl c" />
     <keyboard-shortcut first-keystroke="meta c" />
   </action>
+  <action id="EditorPaste">
+    <keyboard-shortcut first-keystroke="ctrl v" />
+    <keyboard-shortcut first-keystroke="meta v" />
+  </action>
   <action id="EditorPasteSimple" />
   <action id="EditorToggleUseSoftWraps">
     <keyboard-shortcut first-keystroke="shift ctrl s" />
