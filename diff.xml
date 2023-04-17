@@ -2,8 +2,8 @@
   <component name="ExternalDiffSettings">
     <option name="DEFAULT_TOOL_CONFIGURATION">
       <ExternalToolConfiguration>
-        <option name="diffToolName" value="BComp.exe&quot;" />
-        <option name="mergeToolName" value="BComp.exe&quot;" />
+        <option name="diffToolName" value="BComp" />
+        <option name="mergeToolName" value="BComp" />
       </ExternalToolConfiguration>
     </option>
     <option name="DIFF_ENABLED" value="true" />
@@ -15,8 +15,8 @@
             <list>
               <ExternalTool>
                 <option name="argumentPattern" value="%1 %2 %3" />
-                <option name="name" value="BComp.exe&quot;" />
-                <option name="programPath" value="&quot;C:\Program Files (x86)\Beyond Compare 3\BComp.exe&quot;" />
+                <option name="name" value="BComp" />
+                <option name="programPath" value="BComp" />
               </ExternalTool>
             </list>
           </value>
@@ -27,8 +27,8 @@
               <ExternalTool>
                 <option name="argumentPattern" value="%1 %2 %3 %4" />
                 <option name="groupName" value="MERGE_TOOL" />
-                <option name="name" value="BComp.exe&quot;" />
-                <option name="programPath" value="&quot;C:\Program Files (x86)\Beyond Compare 3\BComp.exe&quot;" />
+                <option name="name" value="BComp" />
+                <option name="programPath" value="BComp" />
               </ExternalTool>
             </list>
           </value>

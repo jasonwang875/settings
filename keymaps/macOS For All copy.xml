@@ -7,12 +7,15 @@
     <keyboard-shortcut first-keystroke="ctrl z" />
     <keyboard-shortcut first-keystroke="meta z" />
   </action>
-  <action id="ActivateBookmarksToolWindow" />
+  <action id="ActivateBookmarksToolWindow">
+    <keyboard-shortcut first-keystroke="alt 8" />
+  </action>
   <action id="ActivateFavoritesToolWindow" />
   <action id="ActivateFindToolWindow" />
   <action id="ActivatePullRequestsToolWindow">
     <keyboard-shortcut first-keystroke="alt 3" />
   </action>
+  <action id="ActivateServicesToolWindow" />
   <action id="BuildWholeSolutionAction">
     <keyboard-shortcut first-keystroke="ctrl b" />
   </action>
@@ -101,7 +104,9 @@
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="ctrl alt f" />
   </action>
-  <action id="GotoImplementation" />
+  <action id="GotoImplementation">
+    <keyboard-shortcut first-keystroke="ctrl f12" />
+  </action>
   <action id="GotoTest">
     <keyboard-shortcut first-keystroke="ctrl alt s" />
   </action>
@@ -178,6 +183,9 @@
     <keyboard-shortcut first-keystroke="ctrl alt x" />
   </action>
   <action id="TodoViewGroupByShowPackages" />
+  <action id="ToggleBookmark">
+    <keyboard-shortcut first-keystroke="ctrl alt f3" />
+  </action>
   <action id="ToggleFindInSelection" />
   <action id="ToggleLineBreakpoint">
     <keyboard-shortcut first-keystroke="f9" />
