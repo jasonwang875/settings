@@ -1,4 +1,7 @@
 <keymap version="1" name="macOS For All copy" parent="macOS For All">
+  <action id="$LRU">
+    <keyboard-shortcut first-keystroke="shift ctrl o" />
+  </action>
   <action id="$Paste">
     <keyboard-shortcut first-keystroke="ctrl v" />
     <keyboard-shortcut first-keystroke="meta v" />
@@ -45,6 +48,9 @@
     <keyboard-shortcut first-keystroke="meta a" />
   </action>
   <action id="Diff.ApplyRightSide" />
+  <action id="Editor LRU">
+    <keyboard-shortcut first-keystroke="shift ctrl o" />
+  </action>
   <action id="Editor Undo">
     <keyboard-shortcut first-keystroke="ctrl alt z" />
   </action>
@@ -74,13 +80,16 @@
   <action id="ExpandRegionRecursively">
     <keyboard-shortcut first-keystroke="ctrl alt equals" />
   </action>
+  <action id="ExportToTextFile" />
   <action id="ExternalSystem.ExpandAll">
     <keyboard-shortcut first-keystroke="ctrl equals" />
   </action>
+  <action id="ExternalSystem.ProjectRefreshAction" />
   <action id="FileStructurePopup" />
   <action id="FindPrevious">
     <keyboard-shortcut first-keystroke="shift ctrl g" />
   </action>
+  <action id="ForceOthersToFollowAction" />
   <action id="Git.Branches" />
   <action id="Git.Commit.And.Push.Executor">
     <keyboard-shortcut first-keystroke="shift alt k" />
