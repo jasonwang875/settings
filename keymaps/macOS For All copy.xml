@@ -39,6 +39,10 @@
   <action id="CopyElement" />
   <action id="CppIncludesHierarchy" />
   <action id="DatabaseView.SqlGenerator" />
+  <action id="Debug">
+    <keyboard-shortcut first-keystroke="ctrl alt d" />
+    <keyboard-shortcut first-keystroke="f5" />
+  </action>
   <action id="Diagram.DeselectAll" />
   <action id="Diagram.SelectAll">
     <keyboard-shortcut first-keystroke="ctrl a" />
