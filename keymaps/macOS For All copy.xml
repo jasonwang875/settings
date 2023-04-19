@@ -16,9 +16,6 @@
     <keyboard-shortcut first-keystroke="alt 3" />
   </action>
   <action id="ActivateServicesToolWindow" />
-  <action id="BuildWholeSolutionAction">
-    <keyboard-shortcut first-keystroke="ctrl b" />
-  </action>
   <action id="ChangesView.AddUnversioned" />
   <action id="ChangesView.GroupBy.Directory" />
   <action id="ChangesView.Revert">
@@ -41,7 +38,7 @@
   <action id="DatabaseView.SqlGenerator" />
   <action id="Debug">
     <keyboard-shortcut first-keystroke="ctrl alt d" />
-    <keyboard-shortcut first-keystroke="f5" />
+    <keyboard-shortcut first-keystroke="ctrl b" />
   </action>
   <action id="Diagram.DeselectAll" />
   <action id="Diagram.SelectAll">
