@@ -19,9 +19,6 @@
     <keyboard-shortcut first-keystroke="alt 3" />
   </action>
   <action id="ActivateServicesToolWindow" />
-  <action id="BuildWholeSolutionAction">
-    <keyboard-shortcut first-keystroke="ctrl b" />
-  </action>
   <action id="ChangesView.AddUnversioned" />
   <action id="ChangesView.GroupBy.Directory" />
   <action id="ChangesView.Revert">
@@ -42,6 +39,10 @@
   <action id="CopyElement" />
   <action id="CppIncludesHierarchy" />
   <action id="DatabaseView.SqlGenerator" />
+  <action id="Debug">
+    <keyboard-shortcut first-keystroke="ctrl alt d" />
+    <keyboard-shortcut first-keystroke="ctrl b" />
+  </action>
   <action id="Diagram.DeselectAll" />
   <action id="Diagram.SelectAll">
     <keyboard-shortcut first-keystroke="ctrl a" />
@@ -101,6 +102,9 @@
     <keyboard-shortcut first-keystroke="shift alt r" />
   </action>
   <action id="Git.Stage.Add" />
+  <action id="Git.Unstash">
+    <keyboard-shortcut first-keystroke="shift alt u" />
+  </action>
   <action id="Github.PullRequest.Diff.Comment.Create" />
   <action id="GotoAction">
     <keyboard-shortcut first-keystroke="ctrl alt a" />
@@ -166,6 +170,7 @@
   </action>
   <action id="RiderProjectDiagramApplyCurrentLayout" />
   <action id="RiderTypeHierarchy.BaseOnThisType" />
+  <action id="RiderUnitTestQuickListPopupAction" />
   <action id="ServiceView.GroupByServiceGroups" />
   <action id="ServiceView.ShowServices" />
   <action id="ShowFilterPopup" />
@@ -220,6 +225,9 @@
     <keyboard-shortcut first-keystroke="shift alt v" />
   </action>
   <action id="Vcs.RollbackChangedLines" />
+  <action id="Vcs.Show.Shelf">
+    <keyboard-shortcut first-keystroke="shift alt s" />
+  </action>
   <action id="Vcs.ShowHistoryForBlock">
     <keyboard-shortcut first-keystroke="shift alt l" />
   </action>
