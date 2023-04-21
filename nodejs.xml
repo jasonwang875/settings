@@ -4,7 +4,7 @@
       <version-cache version="18.0.0" last-modified="1652643493041" />
     </local-interpreter>
     <local-interpreter path="/usr/local/bin/node">
-      <version-cache version="16.14.0" last-modified="1644326442000" />
+      <version-cache version="18.16.0" last-modified="1681946726916" />
     </local-interpreter>
     <local-interpreter path="$USER_HOME$/.nvm/versions/node/v12.16.1/bin/node">
       <version-cache version="12.16.1" last-modified="1582000630000" />
