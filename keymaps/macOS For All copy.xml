@@ -13,6 +13,9 @@
   <action id="ActivateBookmarksToolWindow">
     <keyboard-shortcut first-keystroke="alt 8" />
   </action>
+  <action id="ActivateChatGPTToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl alt g" />
+  </action>
   <action id="ActivateFavoritesToolWindow" />
   <action id="ActivateFindToolWindow" />
   <action id="ActivatePullRequestsToolWindow">
