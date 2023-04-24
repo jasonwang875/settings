@@ -96,9 +96,7 @@
   </action>
   <action id="ForceOthersToFollowAction" />
   <action id="Git.Branches" />
-  <action id="Git.Commit.And.Push.Executor">
-    <keyboard-shortcut first-keystroke="shift alt k" />
-  </action>
+  <action id="Git.Commit.And.Push.Executor" />
   <action id="Git.CompareWithBranch">
     <keyboard-shortcut first-keystroke="shift alt b" />
   </action>
@@ -225,6 +223,10 @@
   <action id="UsageGrouping.Directory" />
   <action id="UsageGrouping.FileStructure" />
   <action id="Vcs.Log.ShowAllAffected" />
+  <action id="Vcs.Push">
+    <keyboard-shortcut first-keystroke="shift ctrl k" />
+    <keyboard-shortcut first-keystroke="shift alt k" />
+  </action>
   <action id="Vcs.Push.Force">
     <keyboard-shortcut first-keystroke="shift ctrl alt k" />
   </action>
