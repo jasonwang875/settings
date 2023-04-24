@@ -32,6 +32,9 @@
   </action>
   <action id="Console.History.Browse" />
   <action id="Console.Jdbc.BrowseHistory" />
+  <action id="Console.Jdbc.ChooseSchema">
+    <keyboard-shortcut first-keystroke="shift ctrl f2" />
+  </action>
   <action id="Console.TableResult.NavigateForeignAction">
     <mouse-shortcut keystroke="control button1" />
     <mouse-shortcut keystroke="button2" />
@@ -189,6 +192,7 @@
   <action id="Stop">
     <keyboard-shortcut first-keystroke="shift f5" />
   </action>
+  <action id="StopBackgroundProcesses" />
   <action id="SurroundWith">
     <keyboard-shortcut first-keystroke="shift ctrl t" />
   </action>
