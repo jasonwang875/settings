@@ -14,7 +14,7 @@
     <keyboard-shortcut first-keystroke="alt 8" />
   </action>
   <action id="ActivateChatGPTToolWindow">
-    <keyboard-shortcut first-keystroke="alt g" />
+    <keyboard-shortcut first-keystroke="ctrl alt g" />
   </action>
   <action id="ActivateFavoritesToolWindow" />
   <action id="ActivateFindToolWindow" />
