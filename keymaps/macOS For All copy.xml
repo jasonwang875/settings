@@ -1,4 +1,7 @@
 <keymap version="1" name="macOS For All copy" parent="macOS For All">
+  <action id="$LRU">
+    <keyboard-shortcut first-keystroke="shift ctrl o" />
+  </action>
   <action id="$Paste">
     <keyboard-shortcut first-keystroke="ctrl v" />
     <keyboard-shortcut first-keystroke="meta v" />
@@ -9,6 +12,9 @@
   </action>
   <action id="ActivateBookmarksToolWindow">
     <keyboard-shortcut first-keystroke="alt 8" />
+  </action>
+  <action id="ActivateChatGPTToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl alt g" />
   </action>
   <action id="ActivateFavoritesToolWindow" />
   <action id="ActivateFindToolWindow" />
@@ -29,6 +35,9 @@
   </action>
   <action id="Console.History.Browse" />
   <action id="Console.Jdbc.BrowseHistory" />
+  <action id="Console.Jdbc.ChooseSchema">
+    <keyboard-shortcut first-keystroke="shift ctrl f2" />
+  </action>
   <action id="Console.TableResult.NavigateForeignAction">
     <mouse-shortcut keystroke="control button1" />
     <mouse-shortcut keystroke="button2" />
@@ -46,6 +55,9 @@
     <keyboard-shortcut first-keystroke="meta a" />
   </action>
   <action id="Diff.ApplyRightSide" />
+  <action id="Editor LRU">
+    <keyboard-shortcut first-keystroke="shift ctrl o" />
+  </action>
   <action id="Editor Undo">
     <keyboard-shortcut first-keystroke="ctrl alt z" />
   </action>
@@ -75,14 +87,17 @@
   <action id="ExpandRegionRecursively">
     <keyboard-shortcut first-keystroke="ctrl alt equals" />
   </action>
+  <action id="ExportToTextFile" />
   <action id="ExpressionTypeInfo" />
   <action id="ExternalSystem.ExpandAll">
     <keyboard-shortcut first-keystroke="ctrl equals" />
   </action>
+  <action id="ExternalSystem.ProjectRefreshAction" />
   <action id="FileStructurePopup" />
   <action id="FindPrevious">
     <keyboard-shortcut first-keystroke="shift ctrl g" />
   </action>
+  <action id="ForceOthersToFollowAction" />
   <action id="Git.Branches" />
   <action id="Git.Commit.And.Push.Executor">
     <keyboard-shortcut first-keystroke="shift alt k" />
@@ -128,7 +143,6 @@
   <action id="MoveEditorToOppositeTabGroup">
     <keyboard-shortcut first-keystroke="shift f3" />
   </action>
-  <action id="ParameterInfo.GoToPreviousSignature" />
   <action id="PasteMultiple">
     <keyboard-shortcut first-keystroke="shift ctrl insert" />
   </action>
@@ -181,6 +195,7 @@
   <action id="Stop">
     <keyboard-shortcut first-keystroke="shift f5" />
   </action>
+  <action id="StopBackgroundProcesses" />
   <action id="SurroundWith">
     <keyboard-shortcut first-keystroke="shift ctrl t" />
   </action>
@@ -214,6 +229,9 @@
   <action id="UsageGrouping.Directory" />
   <action id="UsageGrouping.FileStructure" />
   <action id="Vcs.Log.ShowAllAffected" />
+  <action id="Vcs.Push.Force">
+    <keyboard-shortcut first-keystroke="shift ctrl alt k" />
+  </action>
   <action id="Vcs.QuickListPopupAction">
     <keyboard-shortcut first-keystroke="shift alt v" />
   </action>
