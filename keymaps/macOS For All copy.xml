@@ -114,6 +114,8 @@
   <action id="GotoAction">
     <keyboard-shortcut first-keystroke="shift ctrl p" />
   </action>
+  <action id="GotoChangedFile" />
+  <action id="GotoClass" />
   <action id="GotoDeclaration">
     <mouse-shortcut keystroke="control button1" />
     <mouse-shortcut keystroke="button2" />
@@ -140,6 +142,9 @@
   <action id="MethodHierarchy.BaseOnThisMethod" />
   <action id="MoveEditorToOppositeTabGroup">
     <keyboard-shortcut first-keystroke="shift f3" />
+  </action>
+  <action id="OpenFile">
+    <keyboard-shortcut first-keystroke="ctrl o" />
   </action>
   <action id="PasteMultiple">
     <keyboard-shortcut first-keystroke="shift ctrl insert" />
