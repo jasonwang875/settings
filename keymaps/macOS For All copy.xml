@@ -35,6 +35,9 @@
   </action>
   <action id="Console.History.Browse" />
   <action id="Console.Jdbc.BrowseHistory" />
+  <action id="Console.Jdbc.ChooseSchema">
+    <keyboard-shortcut first-keystroke="alt f2" />
+  </action>
   <action id="Console.TableResult.NavigateForeignAction">
     <mouse-shortcut keystroke="control button1" />
     <mouse-shortcut keystroke="button2" />
