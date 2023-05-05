@@ -1,7 +1,4 @@
 <keymap version="1" name="macOS For All copy" parent="macOS For All">
-  <action id="$LRU">
-    <keyboard-shortcut first-keystroke="shift ctrl o" />
-  </action>
   <action id="$Paste">
     <keyboard-shortcut first-keystroke="ctrl v" />
     <keyboard-shortcut first-keystroke="meta v" />
@@ -60,9 +57,6 @@
     <keyboard-shortcut first-keystroke="meta a" />
   </action>
   <action id="Diff.ApplyRightSide" />
-  <action id="Editor LRU">
-    <keyboard-shortcut first-keystroke="shift ctrl o" />
-  </action>
   <action id="Editor Undo">
     <keyboard-shortcut first-keystroke="ctrl alt z" />
   </action>
@@ -119,6 +113,8 @@
   <action id="GotoAction">
     <keyboard-shortcut first-keystroke="shift ctrl p" />
   </action>
+  <action id="GotoChangedFile" />
+  <action id="GotoClass" />
   <action id="GotoDeclaration">
     <mouse-shortcut keystroke="control button1" />
     <mouse-shortcut keystroke="button2" />
@@ -178,6 +174,10 @@
   </action>
   <action id="RiderFileOpenGroup">
     <keyboard-shortcut first-keystroke="ctrl alt p" />
+    <keyboard-shortcut first-keystroke="shift ctrl o" />
+  </action>
+  <action id="RiderOpenSolution">
+    <keyboard-shortcut first-keystroke="ctrl o" />
   </action>
   <action id="RiderProjectDiagramApplyCurrentLayout" />
   <action id="RiderTypeHierarchy.BaseOnThisType" />
