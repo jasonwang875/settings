@@ -1,6 +1,6 @@
 <application>
   <component name="com.obiscr.chatgpt.settings.OpenAISettingsState">
-    <option name="accessToken" value="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" />
+    <option name="accessToken" value="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" />
     <option name="contentOrder">
       <map>
         <entry key="1" value="Online ChatGPT" />
@@ -8,6 +8,6 @@
         <entry key="3" value="ChatGPT" />
       </map>
     </option>
-    <option name="assistantApiKey" value="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" />
+    <option name="assistantApiKey" value="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" />
   </component>
 </application>

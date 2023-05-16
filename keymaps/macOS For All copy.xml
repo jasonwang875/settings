@@ -1,7 +1,4 @@
 <keymap version="1" name="macOS For All copy" parent="macOS For All">
-  <action id="$LRU">
-    <keyboard-shortcut first-keystroke="shift ctrl o" />
-  </action>
   <action id="$Paste">
     <keyboard-shortcut first-keystroke="ctrl v" />
     <keyboard-shortcut first-keystroke="meta v" />
@@ -22,6 +19,9 @@
     <keyboard-shortcut first-keystroke="alt 3" />
   </action>
   <action id="ActivateServicesToolWindow" />
+  <action id="Activategithub.copilotToolWindowToolWindow">
+    <keyboard-shortcut first-keystroke="shift ctrl c" />
+  </action>
   <action id="ChangesView.AddUnversioned" />
   <action id="ChangesView.GroupBy.Directory" />
   <action id="ChangesView.Revert">
@@ -36,13 +36,15 @@
   <action id="Console.History.Browse" />
   <action id="Console.Jdbc.BrowseHistory" />
   <action id="Console.Jdbc.ChooseSchema">
-    <keyboard-shortcut first-keystroke="alt f2" />
+    <keyboard-shortcut first-keystroke="shift ctrl f2" />
   </action>
   <action id="Console.TableResult.NavigateForeignAction">
     <mouse-shortcut keystroke="control button1" />
     <mouse-shortcut keystroke="button2" />
   </action>
+  <action id="CopyAbsolutePath" />
   <action id="CopyElement" />
+  <action id="CopyPaths" />
   <action id="CppIncludesHierarchy" />
   <action id="DatabaseView.SqlGenerator" />
   <action id="Debug">
@@ -55,9 +57,6 @@
     <keyboard-shortcut first-keystroke="meta a" />
   </action>
   <action id="Diff.ApplyRightSide" />
-  <action id="Editor LRU">
-    <keyboard-shortcut first-keystroke="shift ctrl o" />
-  </action>
   <action id="Editor Undo">
     <keyboard-shortcut first-keystroke="ctrl alt z" />
   </action>
@@ -143,9 +142,6 @@
   <action id="MoveEditorToOppositeTabGroup">
     <keyboard-shortcut first-keystroke="shift f3" />
   </action>
-  <action id="OpenFile">
-    <keyboard-shortcut first-keystroke="ctrl o" />
-  </action>
   <action id="PasteMultiple">
     <keyboard-shortcut first-keystroke="shift ctrl insert" />
   </action>
@@ -165,9 +161,7 @@
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="shift ctrl l" />
   </action>
-  <action id="RenameFile">
-    <keyboard-shortcut first-keystroke="shift ctrl f2" />
-  </action>
+  <action id="RemoteHostView.CopyPaths" />
   <action id="Replace">
     <keyboard-shortcut first-keystroke="ctrl h" />
   </action>
@@ -180,10 +174,16 @@
   </action>
   <action id="RiderFileOpenGroup">
     <keyboard-shortcut first-keystroke="ctrl alt p" />
+    <keyboard-shortcut first-keystroke="shift ctrl o" />
+  </action>
+  <action id="RiderOpenSolution">
+    <keyboard-shortcut first-keystroke="ctrl o" />
   </action>
   <action id="RiderProjectDiagramApplyCurrentLayout" />
   <action id="RiderTypeHierarchy.BaseOnThisType" />
   <action id="RiderUnitTestQuickListPopupAction" />
+  <action id="RunClass" />
+  <action id="RunDashboard.Run" />
   <action id="ServiceView.GroupByServiceGroups" />
   <action id="ServiceView.ShowServices" />
   <action id="ShowFilterPopup" />
@@ -256,6 +256,7 @@
     <keyboard-shortcut first-keystroke="shift alt h" />
   </action>
   <action id="VcsHistory.ShowAllAffected" />
+  <action id="WelcomeScreen.CopyProjectPath" />
   <action id="XPathView.Actions.Evaluate" />
   <action id="XPathView.Actions.FindByExpression" />
   <action id="XPathView.Actions.ShowPath" />
@@ -263,6 +264,8 @@
   <action id="hg4idea.QGotoFromPatches" />
   <action id="hg4idea.add" />
   <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleBoldAction" />
+  <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleCodeSpanAction" />
   <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleStrikethroughAction" />
+  <action id="runShellFileAction" />
   <action id="tasks.open.in.browser" />
 </keymap>
