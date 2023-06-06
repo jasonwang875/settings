@@ -1,0 +1,13 @@
+<application>
+  <component name="com.obiscr.chatgpt.settings.OpenAISettingsState">
+    <option name="accessToken" value="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" />
+    <option name="contentOrder">
+      <map>
+        <entry key="1" value="Online ChatGPT" />
+        <entry key="2" value="GPT-3.5-Turbo" />
+        <entry key="3" value="ChatGPT" />
+      </map>
+    </option>
+    <option name="assistantApiKey" value="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" />
+  </component>
+</application>
