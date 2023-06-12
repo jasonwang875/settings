@@ -1,4 +1,7 @@
 <keymap version="1" name="macOS For All copy" parent="macOS For All">
+  <action id="$LRU">
+    <keyboard-shortcut first-keystroke="ctrl alt p" />
+  </action>
   <action id="$Paste">
     <keyboard-shortcut first-keystroke="ctrl v" />
     <keyboard-shortcut first-keystroke="meta v" />
@@ -57,6 +60,9 @@
     <keyboard-shortcut first-keystroke="meta a" />
   </action>
   <action id="Diff.ApplyRightSide" />
+  <action id="Editor LRU">
+    <keyboard-shortcut first-keystroke="ctrl alt p" />
+  </action>
   <action id="Editor Undo">
     <keyboard-shortcut first-keystroke="ctrl alt z" />
   </action>
@@ -173,7 +179,6 @@
     <keyboard-shortcut first-keystroke="f5" />
   </action>
   <action id="RiderFileOpenGroup">
-    <keyboard-shortcut first-keystroke="ctrl alt p" />
     <keyboard-shortcut first-keystroke="shift ctrl o" />
   </action>
   <action id="RiderOpenSolution">
@@ -184,9 +189,13 @@
   <action id="RiderUnitTestQuickListPopupAction" />
   <action id="RunClass" />
   <action id="RunDashboard.Run" />
+  <action id="RunJsbtTask" />
   <action id="ServiceView.GroupByServiceGroups" />
   <action id="ServiceView.ShowServices" />
   <action id="ShowFilterPopup" />
+  <action id="ShowPopupMenu">
+    <keyboard-shortcut first-keystroke="alt f11" />
+  </action>
   <action id="ShowUmlDiagramPopup" />
   <action id="Space.Review.CreateDiffComment" />
   <action id="StepInto">
