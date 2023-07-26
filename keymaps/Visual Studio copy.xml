@@ -1,0 +1,59 @@
+<keymap version="1" name="Visual Studio copy" parent="Visual Studio">
+  <action id="ActivateCommitToolWindow">
+    <keyboard-shortcut first-keystroke="shift alt c" />
+  </action>
+  <action id="GoToLastTab">
+    <keyboard-shortcut first-keystroke="meta f10" />
+  </action>
+  <action id="GoToTab1">
+    <keyboard-shortcut first-keystroke="meta 1" />
+  </action>
+  <action id="GoToTab2">
+    <keyboard-shortcut first-keystroke="meta 2" />
+  </action>
+  <action id="GoToTab3">
+    <keyboard-shortcut first-keystroke="meta 3" />
+  </action>
+  <action id="GoToTab4">
+    <keyboard-shortcut first-keystroke="meta 4" />
+  </action>
+  <action id="GoToTab5">
+    <keyboard-shortcut first-keystroke="meta 5" />
+  </action>
+  <action id="GoToTab6">
+    <keyboard-shortcut first-keystroke="meta 6" />
+  </action>
+  <action id="GoToTab7">
+    <keyboard-shortcut first-keystroke="meta 7" />
+  </action>
+  <action id="GoToTab8">
+    <keyboard-shortcut first-keystroke="meta 8" />
+  </action>
+  <action id="GoToTab9">
+    <keyboard-shortcut first-keystroke="meta 9" />
+  </action>
+  <action id="NextSplitter">
+    <keyboard-shortcut first-keystroke="meta right" />
+  </action>
+  <action id="PrevSplitter">
+    <keyboard-shortcut first-keystroke="meta left" />
+  </action>
+  <action id="ReSharperNavigateTo">
+    <keyboard-shortcut first-keystroke="meta back_quote" />
+  </action>
+  <action id="ShowNavBar">
+    <keyboard-shortcut first-keystroke="meta f2" />
+  </action>
+  <action id="StepInto">
+    <keyboard-shortcut first-keystroke="meta f11" />
+  </action>
+  <action id="ToggleZenMode">
+    <keyboard-shortcut first-keystroke="shift ctrl meta z" />
+  </action>
+  <action id="Vcs.ShowTabbedFileHistory">
+    <keyboard-shortcut first-keystroke="shift ctrl g" />
+  </action>
+  <action id="ViewMembersInNavigationBar">
+    <keyboard-shortcut first-keystroke="shift ctrl f3" />
+  </action>
+</keymap>
