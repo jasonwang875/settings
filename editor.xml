@@ -5,6 +5,7 @@
   <component name="EditorSettings">
     <option name="languageBreadcrumbsMap">
       <map>
+        <entry key="C#" value="true" />
         <entry key="ECMAScript 6" value="true" />
       </map>
     </option>
