@@ -1,4 +1,9 @@
 <application>
+  <component name="CodeFoldingSettings">
+    <option name="COLLAPSE_METHODS" value="true" />
+    <option name="COLLAPSE_DOC_COMMENTS" value="true" />
+    <option name="COLLAPSE_CUSTOM_FOLDING_REGIONS" value="true" />
+  </component>
   <component name="CodeInsightSettings">
     <option name="INSERT_BRACE_ON_ENTER" value="false" />
   </component>
@@ -10,10 +15,15 @@
       </map>
     </option>
     <option name="IS_RIGHT_MARGIN_SHOWN" value="false" />
-    <option name="ARE_GUTTER_ICONS_SHOWN" value="false" />
-    <option name="IS_FOLDING_OUTLINE_SHOWN" value="false" />
-    <option name="SHOW_BREADCRUMBS" value="false" />
-    <option name="IS_INDENT_GUIDES_SHOWN" value="false" />
+  </component>
+  <component name="JSCodeFoldingSettings">
+    <option name="collapseArrayLiterals" value="true" />
+    <option name="collapseObjectLiterals" value="true" />
+    <option name="collapseOneLineFunctions" value="true" />
+    <option name="collapseXmlLiterals" value="true" />
+    <option name="COLLAPSE_OBJECT_LITERALS" value="true" />
+    <option name="COLLAPSE_ARRAY_LITERALS" value="true" />
+    <option name="COLLAPSE_XML_LITERALS" value="true" />
   </component>
   <component name="JSEditorOptions">
     <option name="ESCAPE_PASTED_TEXT" value="false" />
@@ -28,10 +38,16 @@
     <option name="AUTO_WHITESPACE_AFTER_COLON" value="false" />
     <option name="ESCAPE_PASTED_TEXT" value="false" />
   </component>
+  <component name="SqlFoldingSettings">
+    <option name="COLLAPSE_LONG_NUMBERS" value="true" />
+  </component>
   <component name="TodoConfiguration">
     <pattern pattern="\bNotImplementedException\b" />
     <pattern pattern="(?&lt;=\W|^)(?&lt;TAG&gt;BUG)(\W|$)(.*)" />
     <pattern pattern="(?&lt;=\W|^)(?&lt;TAG&gt;TODO)(\W|$)(.*)" />
+  </component>
+  <component name="XmlFoldingSettings">
+    <option name="COLLAPSE_XML_TAGS" value="true" />
   </component>
   <component name="YamlEditorOptions">
     <option name="useSmartPaste" value="false" />

@@ -4,4 +4,8 @@
     <option name="hasNotifiedAboutCompletingWithEnter" value="true" />
     <option name="hasNotifiedAboutCompletingWithSpace" value="true" />
   </component>
+  <component name="RiderDefaultCodeFoldingSettings">
+    <option name="collapseAttributes" value="true" />
+    <option name="collapseComments" value="true" />
+  </component>
 </application>
