@@ -1,6 +1,6 @@
 <keymap version="1" name="macOS For All copy" parent="macOS For All">
   <action id="$LRU">
-    <keyboard-shortcut first-keystroke="ctrl alt p" />
+    <keyboard-shortcut first-keystroke="shift ctrl o" />
   </action>
   <action id="$Paste">
     <keyboard-shortcut first-keystroke="ctrl v" />
@@ -14,7 +14,7 @@
     <keyboard-shortcut first-keystroke="alt 8" />
   </action>
   <action id="ActivateChatGPTToolWindow">
-    <keyboard-shortcut first-keystroke="alt g" />
+    <keyboard-shortcut first-keystroke="ctrl alt g" />
   </action>
   <action id="ActivateFavoritesToolWindow" />
   <action id="ActivateFindToolWindow" />
@@ -39,7 +39,7 @@
   <action id="Console.History.Browse" />
   <action id="Console.Jdbc.BrowseHistory" />
   <action id="Console.Jdbc.ChooseSchema">
-    <keyboard-shortcut first-keystroke="ctrl alt p" />
+    <keyboard-shortcut first-keystroke="shift ctrl f2" />
   </action>
   <action id="Console.TableResult.NavigateForeignAction">
     <mouse-shortcut keystroke="control button1" />
@@ -61,7 +61,7 @@
   </action>
   <action id="Diff.ApplyRightSide" />
   <action id="Editor LRU">
-    <keyboard-shortcut first-keystroke="ctrl alt p" />
+    <keyboard-shortcut first-keystroke="shift ctrl o" />
   </action>
   <action id="Editor Undo">
     <keyboard-shortcut first-keystroke="ctrl alt z" />
@@ -119,8 +119,6 @@
   <action id="GotoAction">
     <keyboard-shortcut first-keystroke="shift ctrl p" />
   </action>
-  <action id="GotoChangedFile" />
-  <action id="GotoClass" />
   <action id="GotoDeclaration">
     <mouse-shortcut keystroke="control button1" />
     <mouse-shortcut keystroke="button2" />
@@ -164,6 +162,9 @@
   <action id="RecentLocations">
     <keyboard-shortcut first-keystroke="ctrl alt e" />
   </action>
+  <action id="RecentProjectListGroup">
+    <keyboard-shortcut first-keystroke="ctrl alt p" />
+  </action>
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="shift ctrl l" />
   </action>
@@ -181,21 +182,14 @@
   <action id="RiderFileOpenGroup">
     <keyboard-shortcut first-keystroke="ctrl alt p" />
   </action>
-  <action id="RiderOpenSolution">
-    <keyboard-shortcut first-keystroke="ctrl o" />
-  </action>
   <action id="RiderProjectDiagramApplyCurrentLayout" />
   <action id="RiderTypeHierarchy.BaseOnThisType" />
   <action id="RiderUnitTestQuickListPopupAction" />
   <action id="RunClass" />
   <action id="RunDashboard.Run" />
-  <action id="RunJsbtTask" />
   <action id="ServiceView.GroupByServiceGroups" />
   <action id="ServiceView.ShowServices" />
   <action id="ShowFilterPopup" />
-  <action id="ShowPopupMenu">
-    <keyboard-shortcut first-keystroke="alt f11" />
-  </action>
   <action id="ShowUmlDiagramPopup" />
   <action id="Space.Review.CreateDiffComment" />
   <action id="StepInto">
